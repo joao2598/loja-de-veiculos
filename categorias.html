@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anuncios Carros</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <!--INICIO TOPO-->
+    <div class="super-topo">
+        <div class="super-topo-box">
+            <div class="super-topo-box-corpo">
+                <div class="col-1">
+                    <span><i class="bx bxs-envelope"></i>cursos@maykonsilveira.com.br</span>
+                    <span><i class="bx bxs-phone-call"></i>(19)98124-7701</span>
+                    <span><i class="bx bx-alarm"></i> 77/77/7777 ás 7:77</span>
+                </div>
+                <div class="col-2">
+                    <a href="#" title=""><i class="bx bx-arrow-to-right"></i>Entrar</a>
+                    <a href="#" title=""><i class="bx bx-user"></i>Cadastra-se</a>
+                    <span>Siga-nos:</span>
+                    <div class="social">
+                        <a href="#" class="bx bxl-facebook-circle"></a>
+                        <a href="#" class="bx bxl-instagram"></a>
+                        <a href="#" class="bx bxl-whatsapp"></a>
+                        <a href="#" class="bx bxl-youtube"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--FIM TOPO-->
+    <!--INICIO CABEÇALHO-->
+    <header class="topo-menu-site">
+        <figure class="logo">
+            <a href="index.html">
+                <img src="assets/img/logo/logo.png" alt="">
+            </a>
+        </figure>
+        <nav>
+            <div class="menuSite">
+                <ul class="menuLinks">
+                    <li><a href="index.html" title="" class="active">Inicio</a></li>
+                    <li><a href="#" title="">Empresa<i class="bx bx-chevron-down"></i></a>
+                        <ul class="menuSub">
+                            <li><a href="#">Termos de Serviços</a></li>
+                            <li><a href="#">Teste 1</a></li>
+                            <li><a href="#">Teste 2</a></li>
+                            <li><a href="#">Teste 3</a></li>
+                            <li><a href="#">Teste 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" title="">Categorias<i class="bx bx-chevron-down"></i></a>
+                        <ul class="menuSub">
+                            <li><a href="categorias.html">Grade</a></li>
+                            <li><a href="listagem.html">Listagem</a></li>
+                            <li><a href="#">Carros</a></li>
+                            <li><a href="#">Caminhonetes</a></li>
+                            <li><a href="#">Caminhões</a></li>
+                            <li><a href="#">Motos</a></li>
+                            <li><a href="#">Ônibus</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" title="">Páginas<i class="bx bx-chevron-down"></i></a>
+                        <ul class="menuSub">
+                            <li><a href="#">Minha Conta<i class="bx bx-chevron-down setaBaixo"></i></a>
+                                <ul class="menuSub-dois">
+                                    <li><a href=""></a>Teste 1</li>
+                                    <li><a href=""></a>Teste 2</li>
+                                    <li><a href=""></a>Teste 3</li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Teste 2</a></li>
+                            <li><a href="#">Teste 3</a></li>
+                            <li><a href="#">Teste 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" title="">Lojas</a></li>
+                    <li><a href="#" title="">Blog</a></li>
+                    <li><a href="#" title="">Contratos</a></li>
+                </ul>
+            </div>
+            <div class="menuAnunciar">
+                <i class="bx bx-search"></i>
+                <i class="bx bx-cart-download"></i>
+                <button class="addBtn"><i class="bx bx-plus-circle"></i>Anunciar</button>
+                <i class="bx bx-menu-alt-left" id="menuBtn"></i>
+            </div>
+        </nav>
+    </header>
+    <!--FIM CABEÇALHO-->
+    <!--INICIO SLIDE-->
+    <div class="categorias-carros">
+        <h2>Categorias de Veiculos</h2>
+        <div class="link">
+            <a href="index.html">Inicio</a>
+            <span> >> </span>
+            <p>Veiculos em Destaque</p>
+        </div>
+    </div>
+    <!--FIM SLIDE-->
+    <!--INICIO CATEGORIA-->
+    <section class="carrosRecentes cats">
+        <div class="col-1">
+            <form action="" method="post">
+                <div class="cat-col">
+                    <h5>Pesquisa</h5>
+                    <div class="filtroBusca">
+                        <input type="text" name="" class="filtro-cat" placeholder="Busca">
+                        <i class="bx bx-search"></i>
+                    </div>
+                </div>
+                <div class="cat-col">
+                    <h5>Marcas</h5>
+                    <div class="caixaBusca">
+                        <input type="checkbox" name="">Ferrari<br>
+                        <input type="checkbox" name="">BMW<br>
+                        <input type="checkbox" name="">Toyota<br>
+                        <input type="checkbox" name="">Audi<br>
+                        <input type="checkbox" name="">Mercedes<br>
+                    </div>
+                </div>
+                <div class="cat-col">
+                    <h5>Cambio</h5>
+                    <div class="caixaBusca">
+                        <input type="checkbox" name="">Manual<br>
+                        <input type="checkbox" name="">Automatico<br>
+                    </div>
+                </div>
+                <div class="cat-col">
+                    <h5>Combustivel</h5>
+                    <div class="caixaBusca">
+                        <input type="checkbox" name="">Flex<br>
+                        <input type="checkbox" name="">Gasolinha<br>
+                        <input type="checkbox" name="">Híbrido<br>
+                        <input type="checkbox" name="">Diesel<br>
+                        <input type="checkbox" name="">Eletrico<br>
+                    </div>
+                </div>
+                <div class="cat-col">
+                    <h5>Acesórios</h5>
+                    <div class="caixaBusca">
+                        <input type="checkbox" name="">Ar Coondiconado<br>
+                        <input type="checkbox" name="">Airbag<br>
+                        <input type="checkbox" name="">Direção Hidraulica<br>
+                        <input type="checkbox" name="">Direção Manual<br>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-2">
+            <div class="cat-veiculos-top">
+                <span>Mostrar do 1 ao 10 de 50 Veículos</span>
+                <div class="cat-v-outros">
+                    <i class="bx bx-grid-alt grade"></i>
+                    <i class="bx bx-menu"></i>
+                </div>
+                <form action="">
+                    <select name="" id="">
+                        <option value="">Menor Valor</option>
+                        <option value="">Maior Valor</option>
+                    </select>
+                </form>
+            </div>
+            <div class="cr-linha linha">
+                <div class="cr-col">
+                    <div class="img-cr">
+                        <img src="assets/img/carros/1.jpg" alt="">
+                    </div>
+                    <h5>Ferrari 777</h5>
+                    <div class="classificado">
+                        <div class="cl-estrelas">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                        </div>
+                        <div class="cl-ct-estrelas">
+                            <span>5.0(5.7 classificados)</span>
+                        </div>
+                    </div>
+                    <div class="cr-info">
+                        <span><i class="bx bx-info-square"></i>4 portas</span>
+                        <span><i class="bx bxs-label"></i>7.777 Km</span>
+                        <span><i class="bx bxs-car"></i>2022</span>
+                        <span><i class="bx bx-gas-pump"></i>Flex</span>
+                    </div>
+                    <div class="cr-valor">
+                        <p>R$ 777,77</p>
+                        <a href="">Visualizar</a>
+                    </div>
+                </div>
+                <div class="cr-col">
+                    <div class="img-cr">
+                        <img src="assets/img/carros/2.jpg" alt="">
+                    </div>
+                    <h5>Ferrari 777</h5>
+                    <div class="classificado">
+                        <div class="cl-estrelas">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                        </div>
+                        <div class="cl-ct-estrelas">
+                            <span>5.0(5.7 classificados)</span>
+                        </div>
+                    </div>
+                    <div class="cr-info">
+                        <span><i class="bx bx-info-square"></i>4 portas</span>
+                        <span><i class="bx bxs-label"></i>7.777 Km</span>
+                        <span><i class="bx bxs-car"></i>2022</span>
+                        <span><i class="bx bx-gas-pump"></i>Flex</span>
+                    </div>
+                    <div class="cr-valor">
+                        <p>R$ 777,77</p>
+                        <a href="">Visualizar</a>
+                    </div>
+                </div>
+                <div class="cr-col">
+                    <div class="img-cr">
+                        <img src="assets/img/carros/3.jpg" alt="">
+                    </div>
+                    <h5>Ferrari 777</h5>
+                    <div class="classificado">
+                        <div class="cl-estrelas">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                        </div>
+                        <div class="cl-ct-estrelas">
+                            <span>5.0(5.7 classificados)</span>
+                        </div>
+                    </div>
+                    <div class="cr-info">
+                        <span><i class="bx bx-info-square"></i>4 portas</span>
+                        <span><i class="bx bxs-label"></i>7.777 Km</span>
+                        <span><i class="bx bxs-car"></i>2022</span>
+                        <span><i class="bx bx-gas-pump"></i>Flex</span>
+                    </div>
+                    <div class="cr-valor">
+                        <p>R$ 777,77</p>
+                        <a href="">Visualizar</a>
+                    </div>
+                </div>
+                <div class="cr-col">
+                    <div class="img-cr">
+                        <img src="assets/img/carros/4.jpg" alt="">
+                    </div>
+                    <h5>Ferrari 777</h5>
+                    <div class="classificado">
+                        <div class="cl-estrelas">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                        </div>
+                        <div class="cl-ct-estrelas">
+                            <span>5.0(5.7 classificados)</span>
+                        </div>
+                    </div>
+                    <div class="cr-info">
+                        <span><i class="bx bx-info-square"></i>4 portas</span>
+                        <span><i class="bx bxs-label"></i>7.777 Km</span>
+                        <span><i class="bx bxs-car"></i>2022</span>
+                        <span><i class="bx bx-gas-pump"></i>Flex</span>
+                    </div>
+                    <div class="cr-valor">
+                        <p>R$ 777,77</p>
+                        <a href="">Visualizar</a>
+                    </div>
+                </div>
+                <div class="cr-col">
+                    <div class="img-cr">
+                        <img src="assets/img/carros/5.jpg" alt="">
+                    </div>
+                    <h5>Ferrari 777</h5>
+                    <div class="classificado">
+                        <div class="cl-estrelas">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                        </div>
+                        <div class="cl-ct-estrelas">
+                            <span>5.0(5.7 classificados)</span>
+                        </div>
+                    </div>
+                    <div class="cr-info">
+                        <span><i class="bx bx-info-square"></i>4 portas</span>
+                        <span><i class="bx bxs-label"></i>7.777 Km</span>
+                        <span><i class="bx bxs-car"></i>2022</span>
+                        <span><i class="bx bx-gas-pump"></i>Flex</span>
+                    </div>
+                    <div class="cr-valor">
+                        <p>R$ 777,77</p>
+                        <a href="">Visualizar</a>
+                    </div>
+                </div>
+                <div class="cr-col">
+                    <div class="img-cr">
+                        <img src="assets/img/carros/6.jpg" alt="">
+                    </div>
+                    <h5>Ferrari 777</h5>
+                    <div class="classificado">
+                        <div class="cl-estrelas">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                        </div>
+                        <div class="cl-ct-estrelas">
+                            <span>5.0(5.7 classificados)</span>
+                        </div>
+                    </div>
+                    <div class="cr-info">
+                        <span><i class="bx bx-info-square"></i>4 portas</span>
+                        <span><i class="bx bxs-label"></i>7.777 Km</span>
+                        <span><i class="bx bxs-car"></i>2022</span>
+                        <span><i class="bx bx-gas-pump"></i>Flex</span>
+                    </div>
+                    <div class="cr-valor">
+                        <p>R$ 777,77</p>
+                        <a href="">Visualizar</a>
+                    </div>
+                </div>
+                <div class="cr-col">
+                    <div class="img-cr">
+                        <img src="assets/img/carros/7.jpg" alt="">
+                    </div>
+                    <h5>Ferrari 777</h5>
+                    <div class="classificado">
+                        <div class="cl-estrelas">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                        </div>
+                        <div class="cl-ct-estrelas">
+                            <span>5.0(5.7 classificados)</span>
+                        </div>
+                    </div>
+                    <div class="cr-info">
+                        <span><i class="bx bx-info-square"></i>4 portas</span>
+                        <span><i class="bx bxs-label"></i>7.777 Km</span>
+                        <span><i class="bx bxs-car"></i>2022</span>
+                        <span><i class="bx bx-gas-pump"></i>Flex</span>
+                    </div>
+                    <div class="cr-valor">
+                        <p>R$ 777,77</p>
+                        <a href="">Visualizar</a>
+                    </div>
+                </div>
+                <div class="cr-col">
+                    <div class="img-cr">
+                        <img src="assets/img/carros/8.jpg" alt="">
+                    </div>
+                    <h5>Ferrari 777</h5>
+                    <div class="classificado">
+                        <div class="cl-estrelas">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                        </div>
+                        <div class="cl-ct-estrelas">
+                            <span>5.0(5.7 classificados)</span>
+                        </div>
+                    </div>
+                    <div class="cr-info">
+                        <span><i class="bx bx-info-square"></i>4 portas</span>
+                        <span><i class="bx bxs-label"></i>7.777 Km</span>
+                        <span><i class="bx bxs-car"></i>2022</span>
+                        <span><i class="bx bx-gas-pump"></i>Flex</span>
+                    </div>
+                    <div class="cr-valor">
+                        <p>R$ 777,77</p>
+                        <a href="">Visualizar</a>
+                    </div>
+                </div>
+            </div><br>
+            <div class="paginacao">
+                <span class="p-numero"><i class="bx bx-left-arrow-alt"></i></span>
+                <span>1</span>
+                <span class="p-numero">2</span>
+                <span class="p-numero">3</span>
+                <span class="p-numero">4</span>
+                <span class="p-numero"><i class="bx bx-right-arrow-alt"></i></span>
+            </div>
+        </div>
+    </section>
+    <!--FIM CATEGORIA-->
+    <!--INICIO RODAPE-->
+    <footer class="rodape">
+        <div class="rodape-linha">
+            <div class="rodape-col">
+                <figure>
+                    <img src="assets/img/logo/LOG-MSVEICULOS.jpg" alt="">
+                </figure>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                   Reiciendis suscipit alias itaque dolor quidem consequuntur 
+                   quam assumenda magnam! Non, nesciunt.
+                </p>
+                <span><i class="bx bx-phone"></i>(99) 99999-9999</span>
+                <span><i class="bx bx-location-plus"></i>Rua João Ferreira</span>
+                <span><i class="bx bxs-envelope"></i>joaosouzaferreira@gmail.com</span>
+            </div>
+            <div class="rodape-col">
+                <h5>Informações</h5>
+                <a href="" title=""><i class="bx bx-chevron-right"></i>Sobre Nós</a>
+                <a href="" title=""><i class="bx bx-chevron-right"></i>Blog</a>
+                <a href="" title=""><i class="bx bx-chevron-right"></i>Videos</a>
+                <a href="" title=""><i class="bx bx-chevron-right"></i>Politica de Privacidade</a>
+                <a href="" title=""><i class="bx bx-chevron-right"></i>Termos de Serviços</a>
+                <a href="" title=""><i class="bx bx-chevron-right"></i>Nossos Planos</a>
+            </div>
+            <div class="rodape-col">
+                <h5>Suporte</h5>
+                <a href="" title=""><i class="bx bx-chevron-right"></i>Perguntas</a>
+                <a href="" title=""><i class="bx bx-chevron-right"></i>Revendas</a>
+                <a href="" title=""><i class="bx bx-chevron-right"></i>Acessórios</a>
+                <a href="" title=""><i class="bx bx-chevron-right"></i>Minha Conta</a>
+                <a href="" title=""><i class="bx bx-chevron-right"></i>Anunciar</a>
+                <a href="" title=""><i class="bx bx-chevron-right"></i>Fale Conosco</a>
+            </div>
+            <div class="rodape-col">
+                <h5>Boletim Informativo</h5>
+                <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, repellat!</p>
+                <form action="" method="post">
+                    <input name="email" placeholder="Seu Melhor E-mail" type="text">
+                    <button type="submit">Quero Me Cadastrar</button>
+                </form>
+            </div>
+        </div>
+        <div class="rodape-direitos">
+            <p>&copy; Desde 2010<span> MSVEICULOS </span>Todos os direitos reservados</p>
+            <div class="rodape-redes">
+                <i class="bx bxl-youtube"></i>
+                <i class="bx bxl-instagram"></i>
+                <i class="bx bxl-facebook"></i>
+                <i class="bx bxl-linkedin"></i>
+            </div>
+        </div>
+    </footer>
+    <!--FIM RODAPE-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/ms.js"></script>
+</body>
+</html> 
